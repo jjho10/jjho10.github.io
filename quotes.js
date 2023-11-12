@@ -39,7 +39,6 @@ const author = document.querySelector("#quote span:last-child");
 
 function randomQuote(){
     const idx = Math.floor(quotes.length * Math.random());
-    console.log(idx);
     quote.innerText = `"${quotes[idx].quote}"`;
     author.innerText = `- ${quotes[idx].author}`;
 }
