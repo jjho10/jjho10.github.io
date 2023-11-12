@@ -1,4 +1,5 @@
 // Login and Greetings
+import "./style.css";
 HIDDEN_CLASSNAME = "hidden";
 USERNAME_KEY = "username";
 
