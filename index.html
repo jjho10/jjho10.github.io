@@ -5,10 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="veiwport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Momentum</title>
+    <title>What's your time?</title>
 </head>
 <body>
-    <h1 autofocus class = "hello" id="a1"> Jey ! </h1>
-    <script src="app.js"></script>
+    <h1 align = "center" class = "calendar"></h1>
+    <h2 align = "center" class = "weekday"></h2>
+    <h1 align = "center" class = "clock"></h1>
+    <div class="flat-container">
+        <form class = "hidden" id="login-form">
+            <input type="text" placeholder = "Username"/>
+        </form>
+        <h2 class="hidden" id="greetings"></h2>
+        <button class = "hidden" id="logout">Logout</button>
+    </div>
+    <div>
+        <form align = "center" id="todo-form">
+            <input type="text" placeholder = "Write a To Do and Press Enter" required/>
+        </form>
+        <ul id="todo-list"></ul>
+    </div>
+    <div align = "center" id="quote">
+        <span></span>
+        <span></span>
+    </div>
+    <div align = "center" id="weather">
+        <span></span><br>
+        <span></span>
+    </div>
+    <script src="background.js"></script>
+    <script src="times.js"></script>
+    <script src="login.js"></script>
+    <script src="todo.js"></script>
+    <script src="weather.js"></script>
+    <script src="quotes.js"></script>
 </body>
 </html>

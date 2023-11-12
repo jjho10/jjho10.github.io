@@ -1,3 +1,20 @@
 body {
     background-color: beige;
 }
+
+.hidden {
+    display: None;
+}
+
+.flat-container {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: center; /* Center items horizontally */
+}
+
+.saturday {
+    color: darkblue;
+}
+.sunday {
+    color: darkred;
+}
